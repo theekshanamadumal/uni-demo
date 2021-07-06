@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni-demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+<body>   
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/4.PNG" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="test.html">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>Leading educational institute</h1>
+    <p>
+        We are the leading educaational centre in private section.
+    </p>
+    <a href=""class="hero-btn">Visit us to know more</a>
+</div>
+
+</section>     
+
+ <!-- ---course--- -->
+ <section class="course">
+<h1>Courses we offer</h1>
+<p>we are now offering classes for every OL and AL subjects.</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Grade 5</h3>
+        <p>all classes for grade 5 schorlarship examination are conducted.</p>
+    </div>
+
+    <div class="course-col">
+        <h3>Ordinary Level</h3>
+        <p>all classes for grade 5 schorlarship examination are conducted.</p>
+    </div>
+
+    <div class="course-col">
+        <h3>Advance Level</h3>
+        <p>all classes for grade 5 schorlarship examination are conducted.</p>
+    </div>
+</div>
+
+</section>
+
+
+<!-- ---campus -->
+<section class="campus">
+<h1>Our Institute Branches</h1>
+<p>
+    Our institute has currently opened and operating branches in falowing areas.
+</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/5.jpg" alt="institute image" >
+        <div class="layer">
+            <h3> KURUNEGALA </h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/6.jpg" alt="institute image" >
+        <div class="layer">
+            <h3> GAMPAHA </h3>
+        </div>
+    </div>
+
+    <div class="campus-col">
+        <img src="images/7.jpg" alt="institute image" >
+        <div class="layer">
+            <h3> KANDY </h3>
+        </div>
+    </div>
+
+
+</div>
+</section>
+
+
+<!-- ----js for toggle navbar------  -->
+    <script>
+        var navLinks=document.getElementById("navLinks")   ;
+        function showMenu() {
+            navLinks.style.right="0"
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>  
