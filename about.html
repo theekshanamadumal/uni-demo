@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+<body>   
+
+    <section class="sub-header" style="background-image: url(images/about-header.jpg);">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>About Us</h1>
+</section>     
+
+<!-- --------about us content -->
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the leading educational institute</h1>
+            <p>
+                We are the leading private sector educational institute for marine scienses in the country. we  offer courses for varity of fields. Our institute has currently opened and operating branches in many areas.
+                And provides unparallel level facilities to our students including class rooms, laborataries, accomodation and food.
+                <br> <br> A large 4 story library building is situated in the institute premises. It contains vast amount of boks ,papers ,researches and digital media covering all subjects. Its capable of accomodating upto 2000 students at once.
+                4 main laborataries with latest technology and modern laboratary equipments provides research and testing facilities to the students.
+                With the intensions to keep students life more balanced and aactive one, We provides facilities to engage in sport activities.
+
+            </p>
+            <a class="hero-btn about-btn" href="">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+                    <img src="images/about-content.jpg" alt="image">
+        </div>
+    </div>
+</section>
+
+
+
+<!-- --------footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a demo web site built for learning purpose only</p>
+    <p>All the images included are taken from -<a href="http://www.google.com"> www.google.com</a></p>
+    
+    <div class="icons">
+        <a href="https://theekshanamadumal@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/theekshanamadumal" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/theekshana-madumal-047261177" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/theekshana.madumal" target="_blank"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <p>made with <i class="fa fa-heart-o"></i> by theekshana</p>
+</section>
+
+<!-- ----js for toggle navbar------  -->
+    <script>
+        var navLinks=document.getElementById("navLinks")   ;
+        function showMenu() {
+            navLinks.style.right="0"
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>  
