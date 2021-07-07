@@ -343,6 +343,10 @@ h3{
 }
 
 @media (max-width:900px){
+    h1{
+        font-size: 20px;
+    }
+
     .testimonials-col img{
         height: 45px;
         margin-left: 0px;
@@ -350,6 +354,28 @@ h3{
     
     }
 }
+
+
+/* call to action */
+
+.cta{
+    margin: 100px    auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/matara.jpg);
+    background-position: center;
+    background-size:cover ;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0 ;
+   
+}
+ 
+.cta h1{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
 
 /* footer */
 .footer{
