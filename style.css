@@ -443,3 +443,11 @@ h3{
     color: white;
 }
 
+@media (max-width:900px){
+    .sub-header{
+        min-height: 30vh;
+    }
+   .sub-header h1{
+    text-align: center;
+   }
+}
