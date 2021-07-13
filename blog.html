@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>   
+
+    <section class="sub-header" style="background-image: url(images/about-header.jpg);">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Course</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>Our Certificate & Online Programs for 2021</h1>
+</section>     
+
+ <!-- ---blog page cntent--- -->
+ <section class="blog-content">
+    
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/blog-content.jpg" alt="image" srcset="">
+            <h2>Our Certificate & Online Programs for 2021</h2>
+            <p>
+                At Ocean Academy, our curriculum has been designed to ensure full coverage of the entire National
+                 Curriculum and that the essential knowledge and skills needed to become a successful member 
+                 of society are intertwined and sequenced logically. Links are made explicit by
+                  teaching staff, where appropriate, to the importance of the subject being learned in the big picture and
+                   how this links to their employability in the future.
+            </p> <br>
+            <p>All children also have access to and the opportunity to join a variety of extra-curricular clubs before,
+                 during and after school to develop their interest and skill in a variety of 
+                 sports, music, science, maths, STEM, computing, dance and drama.
+            </p><br>
+            <p>On top of this, enrichment experiences are organised within each year group to further develop
+                 our pupils’ cultural capital and understanding of employability.</p>
+            </p><br>
+            <p>all classes and examinations are conducted Online till the institute opens .</p><br>
+            <h4>Remote learning strategy</h4><br>
+            <p>
+                Ocean Academy aims to provide education and support to our pupils, using in-school teaching,
+                remote learning and/or a combination of both. Our remote learning follows research based evidence
+                which includes facilitating direct instruction, real time lessons or inputs, recorded sequences and
+                teaching skills and knowledge, quizzes, formal assessment, discussion forums and online resources.
+                <br>
+            </p><br>
+            <p>
+                Teacher contact and pastoral support works alongside this to ensure a sense of belonging and
+                connectivity. We aim to provide quality provision for all our children in school or at home.
+                Teaching and learning is tailored, changed and updated as time progresses, in-line with DfE
+                circular 2020/06, allowing for replication of classroom activity to the best of our ability.
+            </p>
+            </p><br>
+            <h4>  Remote learning approach  </h4><br>
+            <p>Online learning will be set in line with the work provided in school and will continue to follow the
+National Curriculum and the Ocean Academy Learning Journey Maps. All children will follow the
+same timetable and be offered the same learning opportunities wherever possible. 
+            </p>
+        
+        <div class="comment-box">
+            <h3>leave a comment</h3>
+            <form class="comment-form" method="post">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea name=""  rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn about-btn">Post Comment</button>
+            </form>
+        </div>
+
+            
+        </div>
+    
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Marine Engineering</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Oceanography</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Fisheries and Marine Science</span>
+                <span>14</span>
+            </div>
+            <div>
+                <span>Coastal Management</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Aquaculture and Seafood Technology</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Maritime Transport and Logistics</span>
+                <span>26</span>
+            </div>
+            <div>
+                <span>Water Sports</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>Fishing Gear Repair Mechanic</span>
+                <span>45</span>
+            </div>
+            <div>
+                <span>Fishing Harvest Technician</span>
+                <span>42</span>
+            </div>
+            
+        </div> 
+    
+    </div>
+    
+    </section>
+    
+
+
+<!-- --------footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a demo web site built for learning purpose only</p>
+    <p>All the images included are taken from -<a href="http://www.google.com"> www.google.com</a></p>
+    
+    <div class="icons">
+        <a href="https://theekshanamadumal@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/theekshanamadumal" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/theekshana-madumal-047261177" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/theekshana.madumal" target="_blank"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <p>made with <i class="fa fa-heart-o"></i> by theekshana</p>
+</section>
+
+<!-- ----js for toggle navbar------  -->
+    <script>
+        var navLinks=document.getElementById("navLinks")   ;
+        function showMenu() {
+            navLinks.style.right="0"
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>  
