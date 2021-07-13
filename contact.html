@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+
+</head>
+<body>   
+
+    <section class="sub-header" style="background-image: url(images/course-header.jpg);">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt="" srcset=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul> 
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./course.html">Course</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <h1>CONTACT US</h1>
+</section>     
+
+
+
+<!-- --------footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is a demo web site built for learning purpose only</p>
+    <p>All the images included are taken from -<a href="http://www.google.com"> www.google.com</a></p>
+    
+    <div class="icons">
+        <a href="https://theekshanamadumal@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/theekshanamadumal" target="_blank"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/theekshana-madumal-047261177" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/theekshana.madumal" target="_blank"><i class="fa fa-facebook"></i></a>
+    </div>
+
+    <p>made with <i class="fa fa-heart-o"></i> by theekshana</p>
+</section>
+
+<!-- ----js for toggle navbar------  -->
+    <script>
+        var navLinks=document.getElementById("navLinks")   ;
+        function showMenu() {
+            navLinks.style.right="0"
+        }
+        function hideMenu() {
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>  
