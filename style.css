@@ -127,7 +127,7 @@ nav .fa{
         display: block;
         color: #fff;
         margin: 10px;
-        font-size: 22px;
+        font-size: 28px;
         cursor: pointer;
     }
 
@@ -321,6 +321,7 @@ h3{
 
 .testimonials-col p{
     padding: 0%;
+    text-align: justify;
 }
 
 .testimonials-col h3{
