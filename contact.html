@@ -7,8 +7,11 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
-    
 
+<!-- mail sending js -->
+    <script src="./mailScript.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    
 </head>
 <body>   
 
@@ -64,12 +67,12 @@
         </div>
     </div>
     <div class="contact-col">
-        <form action="formHandler.php" method="POST">
-            <input type="text" name="name" placeholder="Enter Your Name" required>
-            <input type="text" name="email" placeholder="Enter Email Address" required>
-            <input type="text" name="subject" placeholder="Enter Your Subject" required>
-            <textarea rows="10" name="message" placeholder="Message" required></textarea>
-            <button type="submit" class="hero-btn about-btn">Send Messege</button>
+        <!-- <form action="./contact.html" method="POST"></form> -->
+            <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+            <input type="text" id="email" name="email" placeholder="Enter Email Address" required>
+            <input type="text" id="subject" name="subject" placeholder="Enter Your Subject" required>
+            <textarea rows="10" id="message" name="message" placeholder="Message" required></textarea>
+            <button onclick="sendEmail()" type="submit"  class="hero-btn about-btn">Send Messege</button>
         </form>
     </div>
 </div>

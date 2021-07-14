@@ -1,6 +1,8 @@
 <?php
 
-$name=$_POST['name'];
+
+
+$visitorName=$_POST['name'];
 $visitorEmail=$_POST['email'];
 $subject=$_POST['subject'];
 $message=$_POST['message'];
@@ -13,7 +15,7 @@ $sendingEmail=$_POST['madusankah03289@gmail.com'];
 
 $emailSubject=$_POST['New Form Submission'];
 
-$emailBody="User Name: $name.\n". 
+$emailBody="User Name: $visitorName.\n". 
             "User Email: $visitorEmail.\n". 
             "Subject: $subject.\n". 
             "User Message: $message.\n" ;
