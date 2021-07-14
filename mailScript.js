@@ -1,7 +1,6 @@
-function sendEmail(params) {
-
-    emailjs.init("user_ZVVGAOPGRb8NAqB2nHCjI");
-
+function sendEmail(event) {
+    
+    emailjs.init("user_ZVVGAOPGRb8NAqB2nHCjI")
     
     emailjs.send("gmail","template_kvi4ul1",{
         webSite: "Uni-demo",
@@ -10,6 +9,16 @@ function sendEmail(params) {
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
         })
+
         .then(result => alert('Your message has been sent. We will reach you sooner.'))
-        .catch(err=>alert( 'Oops! try again')); 
+        .catch(err=>alert( 'Oops! try again'))
+
+    event.preventDefault();
 } 
+
+
+
+window.onload=function () {
+    document.getElementById('mailBtn').addEventListener("click", sendEmail);
+    
+}
