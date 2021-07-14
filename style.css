@@ -240,13 +240,13 @@ h3{
     
 }
 
-.layer:hover, .layer:active{
+.layer:hover, .layer:active ,.layer:focus{
     background: rgba(226,0,0,0.7);
  
     
 } 
 
-.layer:hover h3 , .layer:active h3{
+.layer:hover h3 , .layer:active h3, .layer:focus h3{
     bottom: 49%;
     opacity: 1;
 }
