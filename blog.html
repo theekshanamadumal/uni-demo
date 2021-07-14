@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     
+    <!-- mail sending js -->
+    <script src="./commentMail.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 </head>
 <body>   
@@ -76,11 +79,11 @@ same timetable and be offered the same learning opportunities wherever possible.
         
         <div class="comment-box">
             <h3>leave a comment</h3>
-            <form class="comment-form" method="post">
-                <input type="text" placeholder="Enter Name">
-                <input type="text" placeholder="Enter Email">
-                <textarea name=""  rows="5" placeholder="Your Comment"></textarea>
-                <button type="submit" class="hero-btn about-btn">Post Comment</button>
+            <form class="comment-form" >
+                <input id="commentName" type="text" placeholder="Enter Name">
+                <input id="commentEmail" type="text" placeholder="Enter Email">
+                <textarea id="comment" name="comment"  rows="5" placeholder="Your Comment"></textarea>
+                <button id="commentBtn" type="Submit" class="hero-btn about-btn">Post Comment</button>
             </form>
         </div>
 
