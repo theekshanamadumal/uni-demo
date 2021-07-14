@@ -240,13 +240,13 @@ h3{
     
 }
 
-.layer:hover{
+.layer:hover, .layer:active{
     background: rgba(226,0,0,0.7);
  
     
-}
+} 
 
-.layer:hover h3{
+.layer:hover h3 , .layer:active h3{
     bottom: 49%;
     opacity: 1;
 }
@@ -255,6 +255,7 @@ h3{
     .campus-col{
        max-height: 40vh;
     }
+
 }
 
 
